@@ -1,10 +1,21 @@
 [![Coverage Status](https://coveralls.io/repos/github/harrywynnwill/pairing-tests/badge.svg?branch=master)](https://coveralls.io/github/harrywynnwill/pairing-tests?branch=master)
 
-Try your luck https://fruityruby.herokuapp.com/
 
-TECH TEST
+#TECH TEST
 
-# Fruit machine
+## Installation
+
+[Try your luck](https://fruityruby.herokuapp.com/)
+
+```
+git clone git@github.com:harrywynnwill/fruity-ruby.git
+cd fruity-ruby
+bundle
+rspec
+
+```
+
+## Fruit machine
 
 We are going to create a virtual fruit machine. To make things easier instead of symbols we are going to use colours: black, white, green, yellow.
 
@@ -25,7 +36,7 @@ If a given play results in two or more adjacent slots containing the same colour
 If the machine does not have enough money to pay a prize it should credit the player with a number of free plays equal to the difference between the full prize and the amount of money available. This does not affect a jackpot win.
 
 
-#User stories
+##User stories
 
 As a gambler
 So that I can determine what I have won
